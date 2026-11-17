@@ -117,3 +117,8 @@ plt.figure(figsize=(12, 5)) plt.plot( df.index, df['Log_Passengers'], marker='o'
 fig, axes = plt.subplots(2, 1, figsize=(12, 8)) axes[0].plot(df.index, df['Passengers']) axes[0].set_title('Original Airline Passenger Series') axes[0].set_ylabel('Passengers') axes[0].grid(True) axes[1].plot(df.index, df['Log_Passengers']) axes[1].set_title('Log-Transformed Airline Passenger Series') axes[1].set_ylabel('Log(Passengers)') axes[1].set_xlabel('Year') axes[1].grid(True) plt.tight_layout() plt.show()
 
 # OUTPUT:
+<img width="920" height="557" alt="image" src="https://github.com/user-attachments/assets/e9ac6b59-8781-4361-86ab-fec264753341" />
+
+<img width="750" height="797" alt="image" src="https://github.com/user-attachments/assets/1486f0df-f295-4280-b257-62e456bebe9d" />
+
+
